@@ -25,9 +25,8 @@ Your assignment is to test-drive a recipe directory program. You should:
 3. Create a `seeds/recipes.sql` using `seeds/book_store.sql` as a template.
 4. Test-drive a `Recipe` class that has attributes for each column in your
    table.
-
-   
 5. Test-drive a `RecipeRepository` class that has `all` and `find` methods.
+
 6. Write a small program in `app.py` using the class `RecipeRepository` to print
    out the list of recipes to the terminal.
 
