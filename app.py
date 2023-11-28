@@ -7,7 +7,7 @@ connection = DatabaseConnection()
 connection.connect()
 
 # Seed with some seed data
-connection.seed("seeds/music_library.sql")
+connection.seed("seeds/recipes.sql")
 
 # Retrieve all recipes
 recipe_repository = RecipeRepository(connection)
